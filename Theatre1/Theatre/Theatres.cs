@@ -8,7 +8,7 @@ namespace TheatreSystem
         public double StageLength { get; set; }
         public double StageWidth { get; set; }
 
-        public virtual string GetInfo()  
+        public abstract string GetInfo()  //метод в абстрактном классе должен быть абстрактным, а не виртуальным
         {
             return $"Театр: Мест - {NumberOfSeats}, Рядов - {NumberOfRows}, Сцена: {StageLength}x{StageWidth}, Оркестровая яма: {HasOrchestraPit}";
         }
