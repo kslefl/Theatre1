@@ -7,7 +7,7 @@ namespace TheatreSystem
     {
         static void Main(string[] args)
         {
-            CircusArtist artist = null; 
+            CircusArtist artist = null; // CircusArtist не должен быть равен null
 
             var circusArena = new CircusArena
             {
