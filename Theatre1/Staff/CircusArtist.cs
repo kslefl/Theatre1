@@ -8,7 +8,7 @@ namespace TheatreSystem.Staff
         public CircusArtist(string name)
         {
             this.Name = name;
-            this.Role = name; 
+            this.Role = name; // поменять имя на роль
         }
 
         public string GetRole()
