@@ -1,5 +1,5 @@
-using TheatresSystem.Staff;
-using TheatresSystem.Theatre;
+using TheatresSystem.Staff; // заменить TheatresSystem на TheatreSystem
+using TheatresSystem.Theatre; // заменить TheatresSystem на TheatreSystem
 
 namespace TheatreSystem.Theatres
 {
